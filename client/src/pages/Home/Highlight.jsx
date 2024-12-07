@@ -2,7 +2,7 @@
 import React from "react";
 
 const highlightData = {
-  title: "Mastering React Hooks",
+  title: "Deployment using Vercel App",
   description:
     "Discover how to make the most out of React Hooks and write cleaner, more efficient components.",
   author: "Jane Doe",
