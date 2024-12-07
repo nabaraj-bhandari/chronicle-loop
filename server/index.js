@@ -12,7 +12,7 @@ const itemModel = require("./models/articleSchema.js");
 app.use(express.json());
 app.use(cors(
   {
-    origin: {"https://chronical-loop.vercel.app"},
+    origin: {"https://chronicle-loop.vercel.app/"},
     methods: {"POST","GET"},
     credentials: true
   }
