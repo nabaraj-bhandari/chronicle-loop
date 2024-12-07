@@ -10,7 +10,13 @@ const cors = require("cors");
 const itemModel = require("./models/articleSchema.js");
 
 app.use(express.json());
-app.use(cors());
+app.use(cors(
+  {
+    origin: {"https://chronical-loop.vercel.app"},
+    methods: {"POST","GET"},
+    credentials: true
+  }
+));
 connectDB();
 
 app.get("/", async (req, res) => {
